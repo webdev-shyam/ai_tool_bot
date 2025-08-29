@@ -102,7 +102,7 @@ PORT=3000
 ```
 Framework Preset: Vite
 Root Directory: ./
-Build Command: cd frontend && npm install && npm run build
+Build Command:  
 Output Directory: frontend/dist
 Install Command: (leave empty)
 ```
