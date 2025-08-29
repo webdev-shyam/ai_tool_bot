@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Palette, Upload, Download, Compress, Resize, FileImage, Sparkles } from 'lucide-react'
+import { Palette, Upload, Download, Shrink, Resize, FileImage, Sparkles } from 'lucide-react'
 import { useDropzone } from 'react-dropzone'
 import { apiService } from '../services/apiService'
 import toast from 'react-hot-toast'
@@ -165,7 +165,7 @@ const ImageTools = ({ user }) => {
         <div className="flex space-x-1 bg-gray-100 p-1 rounded-lg">
           {[
             { id: 'convert', label: 'Convert Format', icon: FileImage },
-            { id: 'compress', label: 'Compress', icon: Compress },
+            { id: 'compress', label: 'Compress', icon: Shrink },
             { id: 'resize', label: 'Resize', icon: Resize },
             { id: 'info', label: 'Image Info', icon: Palette }
           ].map((tab) => {
